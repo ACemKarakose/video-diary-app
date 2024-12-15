@@ -1,0 +1,45 @@
+{
+  "name": "video-diary-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "expo-router": {
+    "pagesDirectory": "src/app"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/slider": "^4.5.5",
+    "@tanstack/react-query": "^5.62.7",
+    "expo": "~52.0.18",
+    "expo-dev-client": "~5.0.6",
+    "expo-file-system": "^18.0.5",
+    "expo-image-picker": "^16.0.3",
+    "expo-permissions": "^14.4.0",
+    "expo-router": "4.0.11",
+    "expo-sharing": "^13.0.0",
+    "expo-status-bar": "~2.0.0",
+    "expo-video": "~2.0.2",
+    "ffmpeg-kit-react-native": "^6.0.2",
+    "nativewind": "^4.1.23",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-reanimated": "^3.16.5",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-svg": "^15.10.1",
+    "react-native-video": "^6.8.2",
+    "tailwindcss": "^3.4.16",
+    "zod": "^3.24.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
