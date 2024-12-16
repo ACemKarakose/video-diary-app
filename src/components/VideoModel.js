@@ -45,7 +45,7 @@ const VideoModel = (props) => {
             });
         } else {
             setErrors({ name: "", description: "" });
-            // proceed with form submission (e.g., API call)
+
             console.log("Form submitted", { name, description });
         }
     };
@@ -53,7 +53,7 @@ const VideoModel = (props) => {
     return (
         <Modal visible={isVisible} animationType="slide" transparent={true}>
             <KeyboardAvoidingView
-                behavior={Platform.OS === "ios" ? "padding" : "height"} // Different behavior for iOS and Android
+                behavior={Platform.OS === "ios" ? "padding" : "height"}
                 style={{ flex: 1 }}
             >
                 <View className="flex-1 justify-center items-center" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
@@ -62,7 +62,7 @@ const VideoModel = (props) => {
                             <Video
                                 source={{ uri: selectedVideo }}
                                 ref={videoPlayerRef}
-                                style={{ width: '100%', height: 200 }} // Inline styles for the Video component
+                                style={{ width: '100%', height: 200 }}
                                 controls={true}
                                 onLoad={onLoad}
                             />
@@ -115,8 +115,8 @@ const VideoModel = (props) => {
                                     });
                                 } else {
                                     setErrors({ name: "", description: "" });
-                                    // Proceed with your onPress function logic if validation passes
-                                    onPress(); // Call the onPress function passed via props
+
+                                    onPress();
                                 }
                             }}  />
                             <Button title="Cancel" onPress={()=> {

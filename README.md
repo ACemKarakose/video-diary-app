@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 2. Install dependencies: Navigate to the project directory and run:
    ```bash
    npm install
-   
+
 3. Run the app for iOS:
    ```bash
    npx expo run:ios
@@ -44,10 +44,10 @@ To run this project locally, follow these steps:
    ```bash
    npx expo run:android
 
-## Video Diary App Demo: 
+## Video Diary App Demo:
 https://github.com/user-attachments/assets/602c566f-7459-49b4-a91b-da07155b9024
 
-## Snapshots from the Video Diary App: 
+## Snapshots from the Video Diary App:
 <img width="357" alt="Screenshot 2024-12-16 at 03 54 55" src="https://github.com/user-attachments/assets/96dc7570-e876-4f08-a5b1-e1a34dfd6a30" />
 <img width="366" alt="Screenshot 2024-12-16 at 03 55 32" src="https://github.com/user-attachments/assets/39b83158-bd03-4fd1-9189-81f6de22b033" />
 <img width="359" alt="Screenshot 2024-12-16 at 03 56 17" src="https://github.com/user-attachments/assets/aaec763e-81e0-4915-8de7-43467e3a15f2" />

@@ -13,35 +13,35 @@ export default function Layout() {
 
             <Stack
                 screenOptions={{
-                    headerStyle: "bg-[#f8f8f8]",  // Background color
-                    headerTintColor: "#333",  // Header text color
-                    headerTitleStyle: "font-bold",  // Font weight for title
+                    headerStyle: "bg-[#f8f8f8]",
+                    headerTintColor: "#333",
+                    headerTitleStyle: "font-bold",
                 }}
             >
                 <Stack.Screen
                     name="index"
                     options={{
-                        headerStyle: "bg-[#f8f8f8]",  // Background color
-                        headerTintColor: "#333",  // Header text color
+                        headerStyle: "bg-[#f8f8f8]",
+                        headerTintColor: "#333",
                         headerTitle: 'Video Diary',
-                        headerTitleStyle: "font-bold",  // Font weight for title
+                        headerTitleStyle: "font-bold",
                         headerBackTitle: 'Go Back',
                         headerRight: () => (
                             <Ionicons
                                 name="trash"
                                 size={30}
-                                className="text-black"  // Icon color using NativeWind
-                                onPress={() => clearVideo()} // Action when button is pressed
+                                className="text-black"
+                                onPress={() => clearVideo()}
                             />
                         ),
                     }}
                 />
 
                 <Stack.Screen name="detailsScreen" options={{
-                    headerStyle: "bg-[#f8f8f8]",  // Background color
-                    headerTintColor: "#333",  // Header text color
+                    headerStyle: "bg-[#f8f8f8]",
+                    headerTintColor: "#333",
                     headerTitle: 'Video Details',
-                    headerTitleStyle: "font-bold",  // Font weight for title
+                    headerTitleStyle: "font-bold",
                     headerBackTitle: 'Go Back'
                 }} />
             </Stack>

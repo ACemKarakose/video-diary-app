@@ -15,7 +15,7 @@ import {videosStore} from "../store";
 import useCropVideo from "../utils/videoCropper";
 import VideoModel from "../components/VideoModel";
 import CustomBttn from "../components/CustomBttn";
-import * as Permissions from 'expo-permissions';
+
 
 
 
@@ -36,7 +36,7 @@ export default function HomeScreen() {
 
     const pickMedia = async () => {
         try {
-            // Request permission to access media library
+
             const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
 
             if (status !== 'granted') {
@@ -44,16 +44,16 @@ export default function HomeScreen() {
                 return;
             }
 
-            // If permission is granted, launch the image picker for videos
+
             const result = await ImagePicker.launchImageLibraryAsync({
-                mediaTypes: ['videos'], // Only allow videos
+                mediaTypes: ['videos'],
             });
 
             if (!result.canceled) {
-                // Set video URI and duration for cropping
+
                 setSelectedVideo(result.assets[0].uri);
                 setVideoDuration(result.assets[0].duration);
-                setIsCropModalVisible(true); // Show the cropping modal
+                setIsCropModalVisible(true);
             }
         } catch (error) {
             console.error("Error picking media: ", error);
@@ -61,7 +61,7 @@ export default function HomeScreen() {
     };
 
     useEffect(() => {
-        displayVideo(); // Load videos from AsyncStorage
+        displayVideo();
     }, [displayVideo]);
     const handleCrop = async () => {
         if (!selectedVideo) {
@@ -69,9 +69,9 @@ export default function HomeScreen() {
             return;
         }
         const cropParams = {
-            uri: selectedVideo,  // Path to the video file
-            startTime: startTime,                // Start time in seconds
-            duration: duration,                 // Duration in seconds
+            uri: selectedVideo,
+            startTime: startTime,
+            duration: duration,
             name: name,
             description: description
         };

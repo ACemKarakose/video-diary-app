@@ -13,7 +13,7 @@ const DetailsScreen = () => {
                 <Video
                     source={{ uri: item.uri }}
                     paused={false}
-                    style={{ width: '100%', height: '100%', backgroundColor: 'black' }} // Inline styles for video
+                    style={{ width: '100%', height: '100%', backgroundColor: 'black' }}
                     controls={true}
                     muted={false}
                     resizeMode="contain"

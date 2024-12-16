@@ -8,8 +8,8 @@ export const videosStore = create((set) =>({
     addVideos: async (item) => {
         try {
             set((state) => {
-                const newVideos = [...state.videos, item]; // Destructuring state directly
-                // Save the updated list to AsyncStorage
+                const newVideos = [...state.videos, item];
+
                 AsyncStorage.setItem('videos', JSON.stringify(newVideos));
                 return { videos: newVideos };
             });
