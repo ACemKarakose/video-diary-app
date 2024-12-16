@@ -18,10 +18,13 @@ To run this project locally, follow these steps:
 2. Install dependencies: Navigate to the project directory and run:
    ```bash
    npm install
-
-3  Run the app for iOS and Anroid:
-
-   > For iOS, run:
-     ```bash
+   
+3. Run the app for iOS:
+   ```bash
    npx expo run:ios
+
+4.  Run the app for Android:
+   ```bash
+   npx expo run:android
+
 
