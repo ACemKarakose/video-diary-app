@@ -11,3 +11,9 @@ The Video Diary App is designed with simplicity, efficiency, and scalability in 
 
 To run this project locally, follow these steps:
 
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/ACemKarakose/video-diary-app.git]
+
