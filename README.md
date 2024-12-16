@@ -7,6 +7,10 @@ The Video Diary App is designed with simplicity, efficiency, and scalability in 
 * Save the cropped videos to a personal list for future reference.
 
 
+## Supported platforms
+* iOS
+* Android
+
 ## Installation
 
 To run this project locally, follow these steps:
