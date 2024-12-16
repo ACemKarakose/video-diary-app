@@ -11,6 +11,19 @@ The Video Diary App is designed with simplicity, efficiency, and scalability in 
 * iOS
 * Android
 
+### Core Technologies:
+- **React Native**
+- **Expo**
+- **Expo Router**
+- **AsyncStorage**
+- **TanStack Query**
+- **FFMPEG**
+- **NativeWind**
+- **React Native Video**
+- **Zod**
+
+
+
 ## Installation
 
 To run this project locally, follow these steps:
