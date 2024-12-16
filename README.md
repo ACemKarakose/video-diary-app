@@ -47,3 +47,6 @@ To run this project locally, follow these steps:
 ## Video Diary App Demo: 
 https://github.com/user-attachments/assets/602c566f-7459-49b4-a91b-da07155b9024
 
+## Snapshots from the Video Diary App: 
+![Simulator Screenshot - iPhone 15 Pro - 2024-12-16 at 02 50 54](https://github.com/user-attachments/assets/3646436a-581b-4993-ba84-596710b43067)
+
