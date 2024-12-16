@@ -11,7 +11,7 @@ The Video Diary App is designed with simplicity, efficiency, and scalability in 
 * iOS
 * Android
 
-### Core Technologies:
+## Core Technologies:
 - **React Native**
 - **Expo**
 - **Expo Router**
