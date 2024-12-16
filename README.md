@@ -20,6 +20,7 @@ To run this project locally, follow these steps:
    npm install
 
 3. Run the app for iOS:
+  ```bash
    1- For iOS, run:
    npx expo run:ios
    2- For Android, run:
