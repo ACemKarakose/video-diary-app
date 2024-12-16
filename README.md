@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
    ```bash
    npx expo run:ios
 
-4.  Run the app for Android:
+4. Run the app for Android:
    ```bash
    npx expo run:android
 
