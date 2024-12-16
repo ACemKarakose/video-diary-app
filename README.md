@@ -11,9 +11,16 @@ The Video Diary App is designed with simplicity, efficiency, and scalability in 
 
 To run this project locally, follow these steps:
 
-To run this project locally, follow these steps:
-
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ACemKarakose/video-diary-app.git]
+   git clone https://github.com/ACemKarakose/video-diary-app.git
+
+2. Install dependencies: Navigate to the project directory and run:
+   ```bash
+   npm install
+
+3. Run the app for iOS:
+   1- For iOS, run:
+```bash
+   npx expo run:ios
 
