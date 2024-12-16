@@ -44,4 +44,6 @@ To run this project locally, follow these steps:
    ```bash
    npx expo run:android
 
+## Video Diary App Demo: 
+https://github.com/user-attachments/assets/602c566f-7459-49b4-a91b-da07155b9024
 
