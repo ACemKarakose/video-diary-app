@@ -24,3 +24,7 @@ To run this project locally, follow these steps:
 ```bash
    npx expo run:ios
 
+4. Run the app for iOS:
+   1- For iOS, run:
+```bash
+   npx expo run:ios
