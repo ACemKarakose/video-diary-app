@@ -19,9 +19,9 @@ To run this project locally, follow these steps:
    ```bash
    npm install
 
-3. Run the app for iOS:
-  ```bash
-   1- For iOS, run:
+3  Run the app for iOS and Anroid:
+
+   > For iOS, run:
+     ```bash
    npx expo run:ios
-   2- For Android, run:
-   npx expo run:android
+
